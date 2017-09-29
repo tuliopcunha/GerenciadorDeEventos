@@ -1,0 +1,156 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: white;
+    color: black;
+    font: 400 0.875rem/1.5 "Open Sans", sans-serif;
+    margin: 0;
+    min-height: 100%;
+}
+a {
+    color: #131414;
+    outline: 0;
+    text-decoration: none;
+    padding-left: 2%;
+}
+a:focus, a:hover {
+    text-decoration: underline;
+}
+p {
+    color: black;
+}
+input {
+    border: 0;
+    color: #eee;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+}
+.site__container {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 3rem 0;
+}
+.form input[type="password"], .form input[type="email"], .form input[type="submit"], .form input[type="button"] {
+    width: 100%;
+}
+.form--login {
+    color: #eee;
+}
+.form--login label, .form--login input[type="email"], .form--login input[type="button"], .form--login input[type="password"], .form--login input[type="text"], .form--login input[type="button"], .form--login input[type="submit"] {
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+.form--login label {
+    background-color: #074812;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.form--login input[type="email"], .form--login input[type="password"], .form--login input[type="text"] {
+    background-color: #0B681B;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.form--login input[type="email"]:focus, .form--login input[type="email"]:hover, .form--login input[type="text"]:focus, .form--login input[type="password"]:hover, .form--login input[type="password"]:focus, .form--login input[type="password"]:hover {
+    background-color: #0C751E;
+}
+.form--login input[type="submit"], .form--login input[type="button"] {
+    background-color: #0B681B;
+    color: #eee;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form--login input[type="submit"]:focus, .form--login input[type="submit"]:hover, .form--login input[type="button"]:focus, .form--login input[type="button"]:hover {
+    background-color: #0C751E;
+}
+.form__field {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.form__input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+::-webkit-input-placeholder {
+    color: #eee;
+}
+:-moz-placeholder {
+    color: #eee;
+}
+::-moz-placeholder {
+    color: #eee;
+}
+:-ms-input-placeholder {
+    color: #eee;
+}
+.left {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.center {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.fontawesome-adjust {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    font-size: 25px
+}
+.align {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.text--center {
+    text-align: center;
+}
+.grid__container {
+    margin: 0 auto;
+    max-width: 20rem;
+    width: 90%;
+}
